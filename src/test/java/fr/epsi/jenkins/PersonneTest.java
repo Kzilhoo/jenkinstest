@@ -7,7 +7,7 @@ public class PersonneTest {
 
 	@Test
 	public void test() {
-		Personne p1 = new Personne("Adrien", "Excoffier");
+		Personne p1 = new Personne("Adrie", "Excoffier");
 		
 		Assert.assertEquals("Adrien", p1.getPrenom());
 		Assert.assertEquals("Excoffier", p1.getNom());
