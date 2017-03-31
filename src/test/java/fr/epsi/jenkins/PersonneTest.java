@@ -7,11 +7,11 @@ public class PersonneTest {
 
 	@Test
 	public void test() {
-		Personne p1 = new Personne("Alex", "Medina");
+		Personne p1 = new Personne("Adrien", "Excoffier");
 		
-		Assert.assertEquals("Alex", p1.getPrenom());
-		Assert.assertEquals("Medina", p1.getNom());
-		Assert.assertEquals("Medina Alex", p1.getNomPrenom());
+		Assert.assertEquals("Adrien", p1.getPrenom());
+		Assert.assertEquals("Excoffier", p1.getNom());
+		Assert.assertEquals("Adrien Excoffier", p1.getNomPrenom());
 		Assert.assertNotNull(p1.getV_env());
 		
 	}
